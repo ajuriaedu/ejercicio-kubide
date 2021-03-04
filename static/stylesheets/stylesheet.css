@@ -17,6 +17,7 @@ body {
 	flex-wrap: wrap;
 	background-color: #008080;
 	padding: 20px 50px 20px 50px;
+	padding: 20px 150px 20px 150px;
 }
 
 .half_panel {
@@ -136,12 +137,33 @@ body {
 .footer {
 	background-color: #FFF;
 	padding: 25px 150px 25px 150px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer_panel {
+	flex: 25%
 }
 
 /* estilo del footer */
 .contacts {
 	background-color: #FFF;
 	padding: 25px 150px 25px 150px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contacts_part1 {
+	flex: 70%;
+}
+
+.contacts_part2 {
+	flex: 30%;
+}
+
+.contacts img {
+	width: 40px;
+	height: 40px;
 }
 
 hr {
