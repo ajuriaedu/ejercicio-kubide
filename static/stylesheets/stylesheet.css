@@ -47,19 +47,76 @@ body {
 	padding-bottom: 50px;
 }
 
+.activities {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.activity {
+	flex: 33.33%;
+	padding: 20px;
+	text-align: center;
+}
+
+.activity-img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	/*display: block;*/
+	margin-bottom: 20px;
+	min-width: 200px;
+	min-height: 200px;
+	max-width: 200px;
+	max-height: 200px;
+}
+
 /* estilo de la parte intermedia 2 */
 .main2 {
-	background-color: #F8F8FF;
+	background-color: #F5F5F5;
 	padding-left: 150px;
 	padding-right: 150px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
 
+.description {
+	text-align: center;
+}
+
+.main1 h4, .main2 h4 {
+	text-align: center;
+}
+
+.teamates {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.teamate {
+	flex: 33.33%;
+	padding: 20px;
+	text-align: left;
+}
+
+.teamate-img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	/*display: block;*/
+	margin-bottom: 20px;
+	min-width: 400px;
+	min-height: 267px;
+	max-width: 400px;
+	max-height: 267px;
 }
 
 /* estilo del prefooter */
 .prefooter {
 	background-color: #9ACD32;
+	background-color: #8FBC8B;
+	background-color: #8BC34A;
 	padding-left: 150px;
 	padding-right: 150px;
 	padding-top: 25px;
@@ -73,4 +130,48 @@ body {
 	padding-right: 150px;
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+
+/* estilo del footer */
+.contacts {
+	background-color: #FFF;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+hr {
+	border-top: 1px solid #9ACD32;
+	border-top: 1px solid #8BC34A;
+	width: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+	.topbar {
+		flex-direction: column;
+	}
+
+	.teamate-img {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		/*display: block;*/
+		text-align: center;
+		min-width: 150px;
+		min-height: 100px;
+		max-width: 150px;
+		max-height: 100px;
+	}
+
+	.activity-img {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		/*display: block;*/
+		min-width: 100px;
+		min-height: 100px;
+		max-width: 100px;
+		max-height: 100px;
+	}
 }
