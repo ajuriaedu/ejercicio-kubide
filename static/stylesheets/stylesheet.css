@@ -108,8 +108,9 @@ body {
 	text-align: center;
 }
 
-.main1 h4, .main2 h4 {
+.main1 h2, .main2 h2 {
 	text-align: center;
+	color: #008080;
 }
 
 .teamates {
