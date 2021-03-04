@@ -1,0 +1,76 @@
+/* voy a realizar un diseño basado en una flex-layout para que sea responsive */
+* {
+	box-sizing: border-box;
+}
+
+/* estilo del cuerpo */
+body {
+	color: #000;
+	background-color: #FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0
+}
+
+/* barra de navegación */
+.topbar {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #008080;
+  	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.half_panel {
+  flex: 50%;
+}
+
+/* estilo del header */
+.header {
+	color: #FFFFFF;
+	background: #008080;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* estilo de la parte intermedia 1 */
+.main1 {
+	background-color: white;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* estilo de la parte intermedia 2 */
+.main2 {
+	background-color: #F8F8FF;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+/* estilo del prefooter */
+.prefooter {
+	background-color: #9ACD32;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/* estilo del footer */
+.footer {
+	background-color: #FFF;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
