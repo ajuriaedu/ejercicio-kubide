@@ -3,7 +3,10 @@
 * Separo el código CSS en un documento CSS aparte para que el código quede estructurado (así evito que el CSS esté inline o en el mismo HTML).
 * Los archivos estáticos (imágenes, logos y hojas de estilo) están en un directorio aparte STATIC.
 * Los archivos HTML (index.html) se encuentran en un directorio aparte TEMPLATES.
-* No he empleado Bootstrap, pero sí he empleado un CSS basado en flexbox layout para que responsive.
+* No he empleado Bootstrap, pero sí he empleado un CSS basado en flexbox layout para que sea responsive.
+* Tanto el HTML como el CSS ha sido validado mediante los siguientes servicios de validación:
+* HTML: https://validator.w3.org/
+* CSS: https://jigsaw.w3.org/css-validator/
 
 ## Pantallazo
-![picture](static/imgs/teamate1.jpg)
+![picture](pantallazo.png)
