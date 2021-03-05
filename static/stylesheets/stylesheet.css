@@ -8,6 +8,7 @@ body {
 	color: #000;
 	background-color: #FFF;
 	font-family: Helvetica, Arial, sans-serif;
+	/*font-size: 16px;*/
 	margin: 0
 }
 
@@ -16,7 +17,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #008080;
-	padding: 20px 50px 20px 50px;
 	padding: 20px 150px 20px 150px;
 }
 
@@ -86,6 +86,17 @@ body {
 	text-align: center;
 }
 
+.activity p {
+	color: #546E7A;
+	/*color: #008B8B;*/
+	font-size: 14px;
+}
+
+.activity h4 {
+	font-size: 16px;
+	color: #008080;
+}
+
 .activity-img {
 	display: flex;
 	margin-left: auto;
@@ -106,6 +117,9 @@ body {
 
 .description {
 	text-align: center;
+	color: #546E7A;
+	/*color: #008B8B;*/
+	font-size: 14px;
 }
 
 .main1 h2, .main2 h2 {
@@ -122,7 +136,16 @@ body {
 .teamate {
 	flex: 33.33%;
 	padding: 20px;
+}
+
+.teamate p {
 	text-align: left;
+	color: #546E7A;
+	font-size: 14px;
+}
+
+.teamate h4 {
+	color: #008080;
 }
 
 .teamate-img {
@@ -145,6 +168,11 @@ body {
 	padding: 25px 150px 25px 150px;
 	display: flex;
 	flex-wrap: wrap;
+	color: white;
+}
+
+.prefooter p {
+	font-size: 14px;
 }
 
 .prefooter_part1 {
@@ -177,7 +205,56 @@ body {
 	flex-wrap: wrap;
 }
 
+.footer h4 {
+	color: #008080;
+}
+
+.footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer li {
+	padding: 5px;
+}
+
+.footer a {
+	color: #546E7A;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #2C3E50;
+}
+
+.footer p {
+	color: #546E7A;
+	font-size: 14px;
+}
+
+.footer input {
+	width: 100%;
+	border: none;
+	color: #546E7A;
+	background-color: #F5F5F5;
+	font-size: 14px;
+	outline: none;
+	padding: 14px 20px;
+	padding-left: 40px;
+	background-image: url('../logos/paper-plane.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.footer input:focus {
+	background-color: #EBF5FB;
+}
+
 .footer_panel {
+	padding: 5px;
 	flex: 25%
 }
 
@@ -221,7 +298,7 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-	.topbar, .contacts, .half_panel {
+	.topbar, .contacts, .half_panel, .footer {
 		flex-direction: column;
 	}
 
