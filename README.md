@@ -7,6 +7,7 @@
 * Tanto el HTML como el CSS ha sido validados mediante los siguientes servicios de validación:
 * HTML: https://validator.w3.org/
 * CSS: https://jigsaw.w3.org/css-validator/
+* Al ser responsive se adapta a distintos tipos de pantalla (se recomienda encarecidamente ajustar el ancho de la ventana del navegador para probarlo rápidamente).
 
 ## Pantallazo
 ![picture](pantallazo.png)
